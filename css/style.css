@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(49, 104, 175);
+  font-family: "Roboto";
+}
+
+span {
+  color: rgb(49, 104, 175);
+}
+
+header {
+  padding: 0 5%;
+  background: linear-gradient(black, rgba(0, 0, 0, 0.842));
+  list-style: none;
+  width: 100%;
+  height: 6em;
+  display: grid;
+  grid-template-columns: 150px 600px;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+header #logo {
+  color: white;
+  padding: 3%;
+  font-size: 2em;
+  transition: all 0.6s ease;
+}
+header #logo:hover {
+  color: rgb(49, 104, 175);
+}
+header menu {
+  display: flex;
+  justify-content: space-between;
+}
+header a {
+  color: #fff;
+  width: auto;
+  padding: 3%;
+  font-size: 1.8em;
+  text-decoration: none;
+  transition: all 0.6s ease;
+}
+header a:hover {
+  color: rgb(49, 104, 175);
+}
+
+main {
+  padding: 20% 5% 0 5%;
+  width: 100%;
+  background-color: rgb(233, 230, 230);
+  height: 2000px;
+}
+main .me {
+  display: flex;
+  justify-content: space-between;
+}
+main .me .apresentation {
+  width: 45%;
+}
+main .me .apresentation h1 {
+  font-size: 5em;
+  width: 75%;
+  margin: 2em 0 0.5em 0;
+}
+main .me .apresentation h3 {
+  font-size: 24px;
+}
+main .me .myImage {
+  background-image: url(/assets/images/myImage.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  border: 5px solid rgb(21, 86, 170);
+  width: 500px;
+  height: 600px;
+}
+main .tools {
+  display: flex;
+  padding-top: 10%;
+  justify-content: space-between;
+  width: 100%;
+  height: 600px;
+}
+main .tools .cards {
+  display: flex;
+  width: 40%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+main .tools .cards .card {
+  border-radius: 50%;
+  display: flex;
+  width: 120px;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.6s ease;
+}
+main .tools .cards .card:hover {
+  border-radius: 15px;
+  scale: 1.1;
+  border: 4px solid rgb(49, 104, 175);
+}
+main .tools .cards .card .icon {
+  width: 80px;
+}
+main .tools .descriptionCard {
+  width: 40%;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(34, 50, 122, 0.863);
+  border-radius: 15px;
+}
+main .tools .descriptionCard p {
+  color: #fff;
+  padding: 6%;
+  font-size: 20px;
+  text-align: justify;
+}/*# sourceMappingURL=style.css.map */
